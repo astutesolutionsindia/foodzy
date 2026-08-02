@@ -1,1 +1,10 @@
-
+{
+  "description": "FOODZY offers a user-friendly platform to explore diverse recipes and food ideas, helping users discover and enjoy delicious meals easily.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
