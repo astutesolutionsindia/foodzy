@@ -36,15 +36,21 @@ export default function Navbar() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-          {/* Logo */}
+          
+          {/* Logo - UPDATED SECTION */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-xl bg-[#006039] flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
-              <span className="text-white font-black text-sm font-display">F</span>
-            </div>
+            {/* The img tag replaces the old div with the "F" */}
+            <img 
+              src="/logo.png" 
+              alt="Foodzy Logo" 
+              className="w-9 h-9 object-contain group-hover:scale-105 transition-transform"
+            />
+            {/* If your image file includes the word "FOODZY", you can delete this text span below */}
             <span className="font-black text-xl text-[#111827] tracking-tight font-display">
               FOOD<span className="text-[#006039]">ZY</span>
             </span>
           </Link>
+          {/* END OF UPDATED SECTION */}
 
           {/* Desktop nav */}
           <div className="hidden lg:flex items-center gap-1">
